@@ -1,0 +1,107 @@
+.box-shadow {
+    box-shadow:
+        0 1px 4px 0 rgb(0,0,0,0.1),
+        0 3px 10px 0 rgb(0,0,0,0.1);
+}
+
+
+
+.texto-primario {
+    color: #9AC43C !important;
+}
+
+.bg-verde {
+    background-color: #9AC43C!important;
+}
+
+.bg-degrade {
+    background-image: linear-gradient(90deg, rgba(79,121,9,1) 35%, rgba(165,228,23,1) 100%);
+}
+
+#Rodape {
+    background-color: #2C2C2C !important;
+}
+
+#Rodape h3 {
+    color: #9AC43C !important;
+}
+
+
+
+#RodapeAssinatura {
+    background-color: #212121 !important;
+    color: #c1c1c1 !important;
+}
+
+
+.MenuPrincipal ul li a {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.MenuPrincipal ul li a:hover {
+    color: #6F8D2B !important;
+    
+}
+
+.MenuPrincipal ul li active {
+    color: #6F8D2B !important;
+    
+}
+
+ 
+.btn-valloura {
+    color: #6F8D2B;
+    background-color: #f8f9fa;
+    border-color: #6F8D2B;
+}
+  
+.btn-valloura:hover {
+    color: #FFFFFF;
+    background-color: #6F8D2B;
+    border-color: #dae0e5;
+}
+
+.btn-alinhacentro {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+
+.SliderTexto {
+    position: absolute;
+    right: 20%;
+    bottom: 20%;
+    left: 20%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+
+.SliderTexto h2 {
+    font-size: 4.5rem;
+}
+
+.SliderImagem {
+    position: absolute;
+    right: 0%;
+    bottom: -5%;
+    left: 50%;
+    z-index: 100;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+#form-sucesso {
+    color: #31aa39;
+}
+
+#form-erro {
+    color: #f64540;
+}
